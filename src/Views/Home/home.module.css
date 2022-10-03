@@ -1,0 +1,41 @@
+.hero__container {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 2.5rem 0;
+  gap: 20rem;
+}
+.hero__img {
+  background: url("../../images/bg-tablet-pattern.svg") no-repeat center center;
+  background-size: contain;
+  background-position: left center;
+}
+.hero__img img {
+  object-fit: contain;
+  height: 450px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.hero__text {
+  width: 30%;
+  padding: 30px 0;
+}
+
+.hero__text h2 {
+  color: hsl(233, 12%, 13%);
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.hero__text p {
+  margin: 1rem 0;
+}
+
+.hero__btn {
+  background: hsl(12, 88%, 59%);
+  padding: 0.7rem 1.5rem;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}

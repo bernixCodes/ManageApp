@@ -1,0 +1,28 @@
+.point__container {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.point__btn {
+  background: hsl(12, 88%, 59%);
+  width: 80px;
+  height: 30px;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  width: fit-content;
+  padding: 0 1rem;
+  width: fit-content;
+}
+
+.point_data {
+  display: flex;
+  flex-direction: column;
+}
+
+.point_data h5 {
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+}

@@ -1,0 +1,36 @@
+.header__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: rgb(0, 255, 187); */
+  padding: 1rem;
+}
+
+.center__img {
+  display: flex;
+  align-items: center;
+  margin-top: 0.4rem;
+}
+img {
+  object-fit: contain;
+  height: 16px;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style-type: none;
+  color: hsl(228, 39%, 23%);
+}
+.header__list li {
+  cursor: pointer;
+}
+.header__btn {
+  background: hsl(12, 88%, 59%);
+  padding: 0.7rem 1.5rem;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
